@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepartmentActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/activity_department_app_bar_layout"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dean_office"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/activity_department_app_bar_layout"
+        android:layout_marginTop="20dp"
+        android:text="@string/dean_office"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/program_chair_office"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dean_office"
+        android:layout_marginTop="20dp"
+        android:text="@string/program_chair_office"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mentor_office"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/program_chair_office"
+        android:layout_marginTop="20dp"
+        android:text="@string/mentor_office"/>
+
+</RelativeLayout>

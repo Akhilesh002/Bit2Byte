@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgramChairActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/program_chair_activity_app_bar_layout"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/program_chair_input_layout"
+        android:layout_below="@+id/program_chair_activity_app_bar_layout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/program_chair_input_text"
+            android:hint="@string/department"
+            android:gravity="center_horizontal"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_program_chair"
+        android:layout_below="@id/program_chair_input_layout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/view_program_chair_office"/>
+
+</RelativeLayout>

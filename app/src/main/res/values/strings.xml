@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bit2Byte</string>
+    <string name="class_search">Class Search</string>
+    <string name="department_search">Department Search</string>
+    <string name="faculty_search">Faculty Search</string>
+    <string name="club_search">Club Search</string>
+    <string name="event_search">Event Search</string>
+    <string name="other_search">Other Search</string>
+    <string name="library">Library</string>
+    <string name="lab_class_room">Lab Class Room</string>
+    <string name="dean_office">Dean Office</string>
+    <string name="program_chair_office">Program Chair Office</string>
+    <string name="mentor_office">Mentor Office</string>
+    <string name="department">Department (Write Full Name of Department)</string>
+    <string name="view_dean_office">View Dean Office</string>
+    <string name="view_program_chair_office">View Program Chair Office</string>
+    <string name="view_mentor_office">View Mentor Office</string>
+</resources>
